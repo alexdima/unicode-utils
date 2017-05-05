@@ -1,0 +1,151 @@
+THE FOLLOWING ARE NOT CAPTURED BY THE REGEX: 
+23F1 FE0F                                  ; fully-qualified     # ⏱️ stopwatch
+23F1                                       ; non-fully-qualified # ⏱ stopwatch
+23F2 FE0F                                  ; fully-qualified     # ⏲️ timer clock
+23F2                                       ; non-fully-qualified # ⏲ timer clock
+1F0CF                                      ; fully-qualified     # 🃏 joker
+1F004                                      ; fully-qualified     # 🀄 mahjong red dragon
+2328 FE0F                                  ; fully-qualified     # ⌨️ keyboard
+2328                                       ; non-fully-qualified # ⌨ keyboard
+2B06 FE0F                                  ; fully-qualified     # ⬆️ up arrow
+2B06                                       ; non-fully-qualified # ⬆ up arrow
+2197 FE0F                                  ; fully-qualified     # ↗️ up-right arrow
+2197                                       ; non-fully-qualified # ↗ up-right arrow
+2198 FE0F                                  ; fully-qualified     # ↘️ down-right arrow
+2198                                       ; non-fully-qualified # ↘ down-right arrow
+2B07 FE0F                                  ; fully-qualified     # ⬇️ down arrow
+2B07                                       ; non-fully-qualified # ⬇ down arrow
+2199 FE0F                                  ; fully-qualified     # ↙️ down-left arrow
+2199                                       ; non-fully-qualified # ↙ down-left arrow
+2B05 FE0F                                  ; fully-qualified     # ⬅️ left arrow
+2B05                                       ; non-fully-qualified # ⬅ left arrow
+2196 FE0F                                  ; fully-qualified     # ↖️ up-left arrow
+2196                                       ; non-fully-qualified # ↖ up-left arrow
+2195 FE0F                                  ; fully-qualified     # ↕️ up-down arrow
+2195                                       ; non-fully-qualified # ↕ up-down arrow
+2194 FE0F                                  ; fully-qualified     # ↔️ left-right arrow
+2194                                       ; non-fully-qualified # ↔ left-right arrow
+21A9 FE0F                                  ; fully-qualified     # ↩️ right arrow curving left
+21A9                                       ; non-fully-qualified # ↩ right arrow curving left
+21AA FE0F                                  ; fully-qualified     # ↪️ left arrow curving right
+21AA                                       ; non-fully-qualified # ↪ left arrow curving right
+2934 FE0F                                  ; fully-qualified     # ⤴️ right arrow curving up
+2934                                       ; non-fully-qualified # ⤴ right arrow curving up
+2935 FE0F                                  ; fully-qualified     # ⤵️ right arrow curving down
+2935                                       ; non-fully-qualified # ⤵ right arrow curving down
+25B6 FE0F                                  ; fully-qualified     # ▶️ play button
+25B6                                       ; non-fully-qualified # ▶ play button
+23E9                                       ; fully-qualified     # ⏩ fast-forward button
+23ED FE0F                                  ; fully-qualified     # ⏭️ next track button
+23ED                                       ; non-fully-qualified # ⏭ next track button
+23EF FE0F                                  ; fully-qualified     # ⏯️ play or pause button
+23EF                                       ; non-fully-qualified # ⏯ play or pause button
+25C0 FE0F                                  ; fully-qualified     # ◀️ reverse button
+25C0                                       ; non-fully-qualified # ◀ reverse button
+23EA                                       ; fully-qualified     # ⏪ fast reverse button
+23EE FE0F                                  ; fully-qualified     # ⏮️ last track button
+23EE                                       ; non-fully-qualified # ⏮ last track button
+23EB                                       ; fully-qualified     # ⏫ fast up button
+23EC                                       ; fully-qualified     # ⏬ fast down button
+23F8 FE0F                                  ; fully-qualified     # ⏸️ pause button
+23F8                                       ; non-fully-qualified # ⏸ pause button
+23F9 FE0F                                  ; fully-qualified     # ⏹️ stop button
+23F9                                       ; non-fully-qualified # ⏹ stop button
+23FA FE0F                                  ; fully-qualified     # ⏺️ record button
+23FA                                       ; non-fully-qualified # ⏺ record button
+23CF FE0F                                  ; fully-qualified     # ⏏️ eject button
+23CF                                       ; non-fully-qualified # ⏏ eject button
+303D FE0F                                  ; fully-qualified     # 〽️ part alternation mark
+303D                                       ; non-fully-qualified # 〽 part alternation mark
+203C FE0F                                  ; fully-qualified     # ‼️ double exclamation mark
+203C                                       ; non-fully-qualified # ‼ double exclamation mark
+2049 FE0F                                  ; fully-qualified     # ⁉️ exclamation question mark
+2049                                       ; non-fully-qualified # ⁉ exclamation question mark
+3030 FE0F                                  ; fully-qualified     # 〰️ wavy dash
+3030                                       ; non-fully-qualified # 〰 wavy dash
+00A9 FE0F                                  ; fully-qualified     # ©️ copyright
+00A9                                       ; non-fully-qualified # © copyright
+00AE FE0F                                  ; fully-qualified     # ®️ registered
+00AE                                       ; non-fully-qualified # ® registered
+2122 FE0F                                  ; fully-qualified     # ™️ trade mark
+2122                                       ; non-fully-qualified # ™ trade mark
+0023 FE0F 20E3                             ; fully-qualified     # #️⃣ keycap: #
+0023 20E3                                  ; non-fully-qualified # #⃣ keycap: #
+002A FE0F 20E3                             ; fully-qualified     # *️⃣ keycap: *
+002A 20E3                                  ; non-fully-qualified # *⃣ keycap: *
+0030 FE0F 20E3                             ; fully-qualified     # 0️⃣ keycap: 0
+0030 20E3                                  ; non-fully-qualified # 0⃣ keycap: 0
+0031 FE0F 20E3                             ; fully-qualified     # 1️⃣ keycap: 1
+0031 20E3                                  ; non-fully-qualified # 1⃣ keycap: 1
+0032 FE0F 20E3                             ; fully-qualified     # 2️⃣ keycap: 2
+0032 20E3                                  ; non-fully-qualified # 2⃣ keycap: 2
+0033 FE0F 20E3                             ; fully-qualified     # 3️⃣ keycap: 3
+0033 20E3                                  ; non-fully-qualified # 3⃣ keycap: 3
+0034 FE0F 20E3                             ; fully-qualified     # 4️⃣ keycap: 4
+0034 20E3                                  ; non-fully-qualified # 4⃣ keycap: 4
+0035 FE0F 20E3                             ; fully-qualified     # 5️⃣ keycap: 5
+0035 20E3                                  ; non-fully-qualified # 5⃣ keycap: 5
+0036 FE0F 20E3                             ; fully-qualified     # 6️⃣ keycap: 6
+0036 20E3                                  ; non-fully-qualified # 6⃣ keycap: 6
+0037 FE0F 20E3                             ; fully-qualified     # 7️⃣ keycap: 7
+0037 20E3                                  ; non-fully-qualified # 7⃣ keycap: 7
+0038 FE0F 20E3                             ; fully-qualified     # 8️⃣ keycap: 8
+0038 20E3                                  ; non-fully-qualified # 8⃣ keycap: 8
+0039 FE0F 20E3                             ; fully-qualified     # 9️⃣ keycap: 9
+0039 20E3                                  ; non-fully-qualified # 9⃣ keycap: 9
+1F170 FE0F                                 ; fully-qualified     # 🅰️ A button (blood type)
+1F170                                      ; non-fully-qualified # 🅰 A button (blood type)
+1F18E                                      ; fully-qualified     # 🆎 AB button (blood type)
+1F171 FE0F                                 ; fully-qualified     # 🅱️ B button (blood type)
+1F171                                      ; non-fully-qualified # 🅱 B button (blood type)
+1F191                                      ; fully-qualified     # 🆑 CL button
+1F192                                      ; fully-qualified     # 🆒 COOL button
+1F193                                      ; fully-qualified     # 🆓 FREE button
+2139 FE0F                                  ; fully-qualified     # ℹ️ information
+2139                                       ; non-fully-qualified # ℹ information
+1F194                                      ; fully-qualified     # 🆔 ID button
+24C2 FE0F                                  ; fully-qualified     # Ⓜ️ circled M
+24C2                                       ; non-fully-qualified # Ⓜ circled M
+1F195                                      ; fully-qualified     # 🆕 NEW button
+1F196                                      ; fully-qualified     # 🆖 NG button
+1F17E FE0F                                 ; fully-qualified     # 🅾️ O button (blood type)
+1F17E                                      ; non-fully-qualified # 🅾 O button (blood type)
+1F197                                      ; fully-qualified     # 🆗 OK button
+1F17F FE0F                                 ; fully-qualified     # 🅿️ P button
+1F17F                                      ; non-fully-qualified # 🅿 P button
+1F198                                      ; fully-qualified     # 🆘 SOS button
+1F199                                      ; fully-qualified     # 🆙 UP! button
+1F19A                                      ; fully-qualified     # 🆚 VS button
+1F201                                      ; fully-qualified     # 🈁 Japanese “here” button
+1F202 FE0F                                 ; fully-qualified     # 🈂️ Japanese “service charge” button
+1F202                                      ; non-fully-qualified # 🈂 Japanese “service charge” button
+1F237 FE0F                                 ; fully-qualified     # 🈷️ Japanese “monthly amount” button
+1F237                                      ; non-fully-qualified # 🈷 Japanese “monthly amount” button
+1F236                                      ; fully-qualified     # 🈶 Japanese “not free of charge” button
+1F22F                                      ; fully-qualified     # 🈯 Japanese “reserved” button
+1F250                                      ; fully-qualified     # 🉐 Japanese “bargain” button
+1F239                                      ; fully-qualified     # 🈹 Japanese “discount” button
+1F21A                                      ; fully-qualified     # 🈚 Japanese “free of charge” button
+1F232                                      ; fully-qualified     # 🈲 Japanese “prohibited” button
+1F251                                      ; fully-qualified     # 🉑 Japanese “acceptable” button
+1F238                                      ; fully-qualified     # 🈸 Japanese “application” button
+1F234                                      ; fully-qualified     # 🈴 Japanese “passing grade” button
+1F233                                      ; fully-qualified     # 🈳 Japanese “vacancy” button
+3297 FE0F                                  ; fully-qualified     # ㊗️ Japanese “congratulations” button
+3297                                       ; non-fully-qualified # ㊗ Japanese “congratulations” button
+3299 FE0F                                  ; fully-qualified     # ㊙️ Japanese “secret” button
+3299                                       ; non-fully-qualified # ㊙ Japanese “secret” button
+1F23A                                      ; fully-qualified     # 🈺 Japanese “open for business” button
+1F235                                      ; fully-qualified     # 🈵 Japanese “no vacancy” button
+25AA FE0F                                  ; fully-qualified     # ▪️ black small square
+25AA                                       ; non-fully-qualified # ▪ black small square
+25AB FE0F                                  ; fully-qualified     # ▫️ white small square
+25AB                                       ; non-fully-qualified # ▫ white small square
+25FB FE0F                                  ; fully-qualified     # ◻️ white medium square
+25FB                                       ; non-fully-qualified # ◻ white medium square
+25FC FE0F                                  ; fully-qualified     # ◼️ black medium square
+25FC                                       ; non-fully-qualified # ◼ black medium square
+25FD                                       ; fully-qualified     # ◽ white medium-small square
+25FE                                       ; fully-qualified     # ◾ black medium-small square
+2B1B                                       ; fully-qualified     # ⬛ black large square
+2B1C                                       ; fully-qualified     # ⬜ white large square
