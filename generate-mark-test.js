@@ -37,4 +37,5 @@ if (wasMark) {
 
 fs.writeFileSync('mark-code-ranges.txt', ranges.map(r => `${r.start}-${r.end}`).join('\n'));
 
-console.log(ranges);
+fs.writeFileSync('mark-code-ranges.js', `const ranges = [${ranges.map(r => `0x${r.start},0x${r.end}`).join(',')}];`);
+
