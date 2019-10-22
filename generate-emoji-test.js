@@ -139,6 +139,15 @@ var isEmojiFuzzy = fuzzy.map(function(entry) {
 	return from + '-' + to;
 }).join('');
 
+var isEmojiVeryImprecise = fuzzy.filter(entry => entry.to - entry.from > 1 ).map(function(entry) {
+	var from = '\\u{'+toUnicodeCode(entry.from)+'}';
+	var to = '\\u{'+toUnicodeCode(entry.to)+'}';
+	console.log(`diff - ${entry.to - entry.from}`);
+	return `(x >= ${entry.from} && x <= ${entry.to})`;
+}).join(' || ');
+
+console.log('very imprecise test :: (x >= 0x1F1E6 && x <= 0x1F1FF) || ' + isEmojiVeryImprecise);
+
 // Flags use two code points, but they usually start with 1F1E6 - 1F1FF
 // REGIONAL INDICATOR SYMBOL LETTER A -> REGIONAL INDICATOR SYMBOL LETTER Z
 isEmojiFuzzy += '\\u{1F1E6}-\\u{1F1FF}';
