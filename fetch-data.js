@@ -30,3 +30,5 @@ function fetchFile(PATH, DEST) {
 fetchFile(`/Public/13.0.0/ucd/UnicodeData-13.0.0d6.txt`, './UnicodeData.txt');
 
 fetchFile(`/Public/emoji/12.1/emoji-test.txt`, './emoji-test.txt');
+
+fetchFile(`/Public/13.0.0/ucd/auxiliary/GraphemeBreakProperty-13.0.0d4.txt`, './GraphemeBreakProperty.txt');
