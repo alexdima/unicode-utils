@@ -44,12 +44,12 @@ const typeToInt = {
 	'LV': 11,
 	'LVT': 12,
 	'ZWJ': 13,
-	'Emoji_Presentation': 14
+	'Extended_Pictographic': 14
 }
 
 const tuples = [];
 parseFile('./GraphemeBreakProperty.txt').forEach(item => tuples.push({ from:item.from, to:item.to, type: typeToInt[item.type] }));
-parseFile('./emoji-data.txt').filter(item => item.type === 'Emoji_Presentation').forEach(item => tuples.push({ from:item.from, to:item.to, type: typeToInt[item.type] }));
+parseFile('./emoji-data.txt').filter(item => item.type === 'Extended_Pictographic').forEach(item => tuples.push({ from:item.from, to:item.to, type: typeToInt[item.type] }));
 tuples.sort((t1, t2) => t1.from - t2.from);
 
 let tuplesTree = [];
