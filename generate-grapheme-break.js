@@ -1,8 +1,34 @@
 const fs = require('fs');
-// const regexpu = require('regexpu');
 
-const data = fs.readFileSync('./GraphemeBreakProperty.txt').toString('utf8');
-const entries = data.split('\n');
+function parseLine(line) {
+	line = line.replace(/#.*/, '');
+	line = line.trim();
+	if (line.length === 0) {
+		return null;
+	}
+
+	let parts = line.split(';').map(s => s.trim());
+
+	if (/\.\./.test(parts[0])) {
+		const range = parts[0].split('..');
+		return { from: parseInt(range[0], 16), to: parseInt(range[1], 16), type: parts[1] };
+	}
+
+	return { from: parseInt(parts[0], 16), to: parseInt(parts[0], 16), type: parts[1] };
+}
+
+function parseFile(filename) {
+	const fileContents = fs.readFileSync(filename).toString('utf8');
+	const lines = fileContents.split('\n');
+	const result = [];
+	for (let i = 0; i < lines.length; i++) {
+		let line = parseLine(lines[i]);
+		if (line) {
+			result.push(line);
+		}
+	}
+	return result;
+}
 
 const typeToInt = {
 	'Prepend': 1,
@@ -18,35 +44,12 @@ const typeToInt = {
 	'LV': 11,
 	'LVT': 12,
 	'ZWJ': 13,
+	'Emoji_Presentation': 14
 }
 
-let tuples = [];
-for (let i = 0; i < entries.length; i++) {
-	let line = entries[i];
-	line = line.replace(/#.*/, '');
-	line = line.trim();
-	if (line.length === 0) {
-		continue;
-	}
-
-	let parts = line.split(';').map(s => s.trim());
-	const type = typeToInt[parts[1]];
-
-	let from;
-	let to;
-	if (/\.\./.test(parts[0])) {
-		const range = parts[0].split('..');
-		from = parseInt(range[0], 16);
-		to = parseInt(range[1], 16);
-	} else {
-		from = to = parseInt(parts[0], 16);
-	}
-
-	tuples.push({ from, to, type });
-
-	// console.log(from, to, type);
-}
-
+const tuples = [];
+parseFile('./GraphemeBreakProperty.txt').forEach(item => tuples.push({ from:item.from, to:item.to, type: typeToInt[item.type] }));
+parseFile('./emoji-data.txt').filter(item => item.type === 'Emoji_Presentation').forEach(item => tuples.push({ from:item.from, to:item.to, type: typeToInt[item.type] }));
 tuples.sort((t1, t2) => t1.from - t2.from);
 
 let tuplesTree = [];
