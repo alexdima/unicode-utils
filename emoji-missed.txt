@@ -1,151 +1,151 @@
 THE FOLLOWING ARE NOT CAPTURED BY THE REGEX: 
-23F1 FE0F                                  ; fully-qualified     # ⏱️ E2.0 stopwatch
-23F1                                       ; unqualified         # ⏱ E2.0 stopwatch
-23F2 FE0F                                  ; fully-qualified     # ⏲️ E2.0 timer clock
-23F2                                       ; unqualified         # ⏲ E2.0 timer clock
-1F0CF                                      ; fully-qualified     # 🃏 E2.0 joker
-1F004                                      ; fully-qualified     # 🀄 E2.0 mahjong red dragon
-2328 FE0F                                  ; fully-qualified     # ⌨️ E2.0 keyboard
-2328                                       ; unqualified         # ⌨ E2.0 keyboard
-2B06 FE0F                                  ; fully-qualified     # ⬆️ E2.0 up arrow
-2B06                                       ; unqualified         # ⬆ E2.0 up arrow
-2197 FE0F                                  ; fully-qualified     # ↗️ E2.0 up-right arrow
-2197                                       ; unqualified         # ↗ E2.0 up-right arrow
-2198 FE0F                                  ; fully-qualified     # ↘️ E2.0 down-right arrow
-2198                                       ; unqualified         # ↘ E2.0 down-right arrow
-2B07 FE0F                                  ; fully-qualified     # ⬇️ E2.0 down arrow
-2B07                                       ; unqualified         # ⬇ E2.0 down arrow
-2199 FE0F                                  ; fully-qualified     # ↙️ E2.0 down-left arrow
-2199                                       ; unqualified         # ↙ E2.0 down-left arrow
-2B05 FE0F                                  ; fully-qualified     # ⬅️ E2.0 left arrow
-2B05                                       ; unqualified         # ⬅ E2.0 left arrow
-2196 FE0F                                  ; fully-qualified     # ↖️ E2.0 up-left arrow
-2196                                       ; unqualified         # ↖ E2.0 up-left arrow
-2195 FE0F                                  ; fully-qualified     # ↕️ E2.0 up-down arrow
-2195                                       ; unqualified         # ↕ E2.0 up-down arrow
-2194 FE0F                                  ; fully-qualified     # ↔️ E2.0 left-right arrow
-2194                                       ; unqualified         # ↔ E2.0 left-right arrow
-21A9 FE0F                                  ; fully-qualified     # ↩️ E2.0 right arrow curving left
-21A9                                       ; unqualified         # ↩ E2.0 right arrow curving left
-21AA FE0F                                  ; fully-qualified     # ↪️ E2.0 left arrow curving right
-21AA                                       ; unqualified         # ↪ E2.0 left arrow curving right
-2934 FE0F                                  ; fully-qualified     # ⤴️ E2.0 right arrow curving up
-2934                                       ; unqualified         # ⤴ E2.0 right arrow curving up
-2935 FE0F                                  ; fully-qualified     # ⤵️ E2.0 right arrow curving down
-2935                                       ; unqualified         # ⤵ E2.0 right arrow curving down
-25B6 FE0F                                  ; fully-qualified     # ▶️ E2.0 play button
-25B6                                       ; unqualified         # ▶ E2.0 play button
-23E9                                       ; fully-qualified     # ⏩ E2.0 fast-forward button
-23ED FE0F                                  ; fully-qualified     # ⏭️ E2.0 next track button
-23ED                                       ; unqualified         # ⏭ E2.0 next track button
-23EF FE0F                                  ; fully-qualified     # ⏯️ E2.0 play or pause button
-23EF                                       ; unqualified         # ⏯ E2.0 play or pause button
-25C0 FE0F                                  ; fully-qualified     # ◀️ E2.0 reverse button
-25C0                                       ; unqualified         # ◀ E2.0 reverse button
-23EA                                       ; fully-qualified     # ⏪ E2.0 fast reverse button
-23EE FE0F                                  ; fully-qualified     # ⏮️ E2.0 last track button
-23EE                                       ; unqualified         # ⏮ E2.0 last track button
-23EB                                       ; fully-qualified     # ⏫ E2.0 fast up button
-23EC                                       ; fully-qualified     # ⏬ E2.0 fast down button
-23F8 FE0F                                  ; fully-qualified     # ⏸️ E2.0 pause button
-23F8                                       ; unqualified         # ⏸ E2.0 pause button
-23F9 FE0F                                  ; fully-qualified     # ⏹️ E2.0 stop button
-23F9                                       ; unqualified         # ⏹ E2.0 stop button
-23FA FE0F                                  ; fully-qualified     # ⏺️ E2.0 record button
-23FA                                       ; unqualified         # ⏺ E2.0 record button
-23CF FE0F                                  ; fully-qualified     # ⏏️ E2.0 eject button
-23CF                                       ; unqualified         # ⏏ E2.0 eject button
-303D FE0F                                  ; fully-qualified     # 〽️ E2.0 part alternation mark
-303D                                       ; unqualified         # 〽 E2.0 part alternation mark
-203C FE0F                                  ; fully-qualified     # ‼️ E2.0 double exclamation mark
-203C                                       ; unqualified         # ‼ E2.0 double exclamation mark
-2049 FE0F                                  ; fully-qualified     # ⁉️ E2.0 exclamation question mark
-2049                                       ; unqualified         # ⁉ E2.0 exclamation question mark
-3030 FE0F                                  ; fully-qualified     # 〰️ E2.0 wavy dash
-3030                                       ; unqualified         # 〰 E2.0 wavy dash
-00A9 FE0F                                  ; fully-qualified     # ©️ E2.0 copyright
-00A9                                       ; unqualified         # © E2.0 copyright
-00AE FE0F                                  ; fully-qualified     # ®️ E2.0 registered
-00AE                                       ; unqualified         # ® E2.0 registered
-2122 FE0F                                  ; fully-qualified     # ™️ E2.0 trade mark
-2122                                       ; unqualified         # ™ E2.0 trade mark
-0023 FE0F 20E3                             ; fully-qualified     # #️⃣ E0.0 keycap: #
-0023 20E3                                  ; unqualified         # #⃣ E0.0 keycap: #
-002A FE0F 20E3                             ; fully-qualified     # *️⃣ E0.0 keycap: *
-002A 20E3                                  ; unqualified         # *⃣ E0.0 keycap: *
-0030 FE0F 20E3                             ; fully-qualified     # 0️⃣ E0.0 keycap: 0
-0030 20E3                                  ; unqualified         # 0⃣ E0.0 keycap: 0
-0031 FE0F 20E3                             ; fully-qualified     # 1️⃣ E0.0 keycap: 1
-0031 20E3                                  ; unqualified         # 1⃣ E0.0 keycap: 1
-0032 FE0F 20E3                             ; fully-qualified     # 2️⃣ E0.0 keycap: 2
-0032 20E3                                  ; unqualified         # 2⃣ E0.0 keycap: 2
-0033 FE0F 20E3                             ; fully-qualified     # 3️⃣ E0.0 keycap: 3
-0033 20E3                                  ; unqualified         # 3⃣ E0.0 keycap: 3
-0034 FE0F 20E3                             ; fully-qualified     # 4️⃣ E0.0 keycap: 4
-0034 20E3                                  ; unqualified         # 4⃣ E0.0 keycap: 4
-0035 FE0F 20E3                             ; fully-qualified     # 5️⃣ E0.0 keycap: 5
-0035 20E3                                  ; unqualified         # 5⃣ E0.0 keycap: 5
-0036 FE0F 20E3                             ; fully-qualified     # 6️⃣ E0.0 keycap: 6
-0036 20E3                                  ; unqualified         # 6⃣ E0.0 keycap: 6
-0037 FE0F 20E3                             ; fully-qualified     # 7️⃣ E0.0 keycap: 7
-0037 20E3                                  ; unqualified         # 7⃣ E0.0 keycap: 7
-0038 FE0F 20E3                             ; fully-qualified     # 8️⃣ E0.0 keycap: 8
-0038 20E3                                  ; unqualified         # 8⃣ E0.0 keycap: 8
-0039 FE0F 20E3                             ; fully-qualified     # 9️⃣ E0.0 keycap: 9
-0039 20E3                                  ; unqualified         # 9⃣ E0.0 keycap: 9
-1F170 FE0F                                 ; fully-qualified     # 🅰️ E2.0 A button (blood type)
-1F170                                      ; unqualified         # 🅰 E2.0 A button (blood type)
-1F18E                                      ; fully-qualified     # 🆎 E2.0 AB button (blood type)
-1F171 FE0F                                 ; fully-qualified     # 🅱️ E2.0 B button (blood type)
-1F171                                      ; unqualified         # 🅱 E2.0 B button (blood type)
-1F191                                      ; fully-qualified     # 🆑 E2.0 CL button
-1F192                                      ; fully-qualified     # 🆒 E2.0 COOL button
-1F193                                      ; fully-qualified     # 🆓 E2.0 FREE button
-2139 FE0F                                  ; fully-qualified     # ℹ️ E2.0 information
-2139                                       ; unqualified         # ℹ E2.0 information
-1F194                                      ; fully-qualified     # 🆔 E2.0 ID button
-24C2 FE0F                                  ; fully-qualified     # Ⓜ️ E2.0 circled M
-24C2                                       ; unqualified         # Ⓜ E2.0 circled M
-1F195                                      ; fully-qualified     # 🆕 E2.0 NEW button
-1F196                                      ; fully-qualified     # 🆖 E2.0 NG button
-1F17E FE0F                                 ; fully-qualified     # 🅾️ E2.0 O button (blood type)
-1F17E                                      ; unqualified         # 🅾 E2.0 O button (blood type)
-1F197                                      ; fully-qualified     # 🆗 E2.0 OK button
-1F17F FE0F                                 ; fully-qualified     # 🅿️ E2.0 P button
-1F17F                                      ; unqualified         # 🅿 E2.0 P button
-1F198                                      ; fully-qualified     # 🆘 E2.0 SOS button
-1F199                                      ; fully-qualified     # 🆙 E2.0 UP! button
-1F19A                                      ; fully-qualified     # 🆚 E2.0 VS button
-1F201                                      ; fully-qualified     # 🈁 E2.0 Japanese “here” button
-1F202 FE0F                                 ; fully-qualified     # 🈂️ E2.0 Japanese “service charge” button
-1F202                                      ; unqualified         # 🈂 E2.0 Japanese “service charge” button
-1F237 FE0F                                 ; fully-qualified     # 🈷️ E2.0 Japanese “monthly amount” button
-1F237                                      ; unqualified         # 🈷 E2.0 Japanese “monthly amount” button
-1F236                                      ; fully-qualified     # 🈶 E2.0 Japanese “not free of charge” button
-1F22F                                      ; fully-qualified     # 🈯 E2.0 Japanese “reserved” button
-1F250                                      ; fully-qualified     # 🉐 E2.0 Japanese “bargain” button
-1F239                                      ; fully-qualified     # 🈹 E2.0 Japanese “discount” button
-1F21A                                      ; fully-qualified     # 🈚 E2.0 Japanese “free of charge” button
-1F232                                      ; fully-qualified     # 🈲 E2.0 Japanese “prohibited” button
-1F251                                      ; fully-qualified     # 🉑 E2.0 Japanese “acceptable” button
-1F238                                      ; fully-qualified     # 🈸 E2.0 Japanese “application” button
-1F234                                      ; fully-qualified     # 🈴 E2.0 Japanese “passing grade” button
-1F233                                      ; fully-qualified     # 🈳 E2.0 Japanese “vacancy” button
-3297 FE0F                                  ; fully-qualified     # ㊗️ E2.0 Japanese “congratulations” button
-3297                                       ; unqualified         # ㊗ E2.0 Japanese “congratulations” button
-3299 FE0F                                  ; fully-qualified     # ㊙️ E2.0 Japanese “secret” button
-3299                                       ; unqualified         # ㊙ E2.0 Japanese “secret” button
-1F23A                                      ; fully-qualified     # 🈺 E2.0 Japanese “open for business” button
-1F235                                      ; fully-qualified     # 🈵 E2.0 Japanese “no vacancy” button
-2B1B                                       ; fully-qualified     # ⬛ E2.0 black large square
-2B1C                                       ; fully-qualified     # ⬜ E2.0 white large square
-25FC FE0F                                  ; fully-qualified     # ◼️ E2.0 black medium square
-25FC                                       ; unqualified         # ◼ E2.0 black medium square
-25FB FE0F                                  ; fully-qualified     # ◻️ E2.0 white medium square
-25FB                                       ; unqualified         # ◻ E2.0 white medium square
-25FE                                       ; fully-qualified     # ◾ E2.0 black medium-small square
-25FD                                       ; fully-qualified     # ◽ E2.0 white medium-small square
-25AA FE0F                                  ; fully-qualified     # ▪️ E2.0 black small square
-25AA                                       ; unqualified         # ▪ E2.0 black small square
-25AB FE0F                                  ; fully-qualified     # ▫️ E2.0 white small square
-25AB                                       ; unqualified         # ▫ E2.0 white small square
+23F1 FE0F                                              ; fully-qualified     # ⏱️ E1.0 stopwatch
+23F1                                                   ; unqualified         # ⏱ E1.0 stopwatch
+23F2 FE0F                                              ; fully-qualified     # ⏲️ E1.0 timer clock
+23F2                                                   ; unqualified         # ⏲ E1.0 timer clock
+1F0CF                                                  ; fully-qualified     # 🃏 E0.6 joker
+1F004                                                  ; fully-qualified     # 🀄 E0.6 mahjong red dragon
+2328 FE0F                                              ; fully-qualified     # ⌨️ E1.0 keyboard
+2328                                                   ; unqualified         # ⌨ E1.0 keyboard
+2B06 FE0F                                              ; fully-qualified     # ⬆️ E0.6 up arrow
+2B06                                                   ; unqualified         # ⬆ E0.6 up arrow
+2197 FE0F                                              ; fully-qualified     # ↗️ E0.6 up-right arrow
+2197                                                   ; unqualified         # ↗ E0.6 up-right arrow
+2198 FE0F                                              ; fully-qualified     # ↘️ E0.6 down-right arrow
+2198                                                   ; unqualified         # ↘ E0.6 down-right arrow
+2B07 FE0F                                              ; fully-qualified     # ⬇️ E0.6 down arrow
+2B07                                                   ; unqualified         # ⬇ E0.6 down arrow
+2199 FE0F                                              ; fully-qualified     # ↙️ E0.6 down-left arrow
+2199                                                   ; unqualified         # ↙ E0.6 down-left arrow
+2B05 FE0F                                              ; fully-qualified     # ⬅️ E0.6 left arrow
+2B05                                                   ; unqualified         # ⬅ E0.6 left arrow
+2196 FE0F                                              ; fully-qualified     # ↖️ E0.6 up-left arrow
+2196                                                   ; unqualified         # ↖ E0.6 up-left arrow
+2195 FE0F                                              ; fully-qualified     # ↕️ E0.6 up-down arrow
+2195                                                   ; unqualified         # ↕ E0.6 up-down arrow
+2194 FE0F                                              ; fully-qualified     # ↔️ E0.6 left-right arrow
+2194                                                   ; unqualified         # ↔ E0.6 left-right arrow
+21A9 FE0F                                              ; fully-qualified     # ↩️ E0.6 right arrow curving left
+21A9                                                   ; unqualified         # ↩ E0.6 right arrow curving left
+21AA FE0F                                              ; fully-qualified     # ↪️ E0.6 left arrow curving right
+21AA                                                   ; unqualified         # ↪ E0.6 left arrow curving right
+2934 FE0F                                              ; fully-qualified     # ⤴️ E0.6 right arrow curving up
+2934                                                   ; unqualified         # ⤴ E0.6 right arrow curving up
+2935 FE0F                                              ; fully-qualified     # ⤵️ E0.6 right arrow curving down
+2935                                                   ; unqualified         # ⤵ E0.6 right arrow curving down
+25B6 FE0F                                              ; fully-qualified     # ▶️ E0.6 play button
+25B6                                                   ; unqualified         # ▶ E0.6 play button
+23E9                                                   ; fully-qualified     # ⏩ E0.6 fast-forward button
+23ED FE0F                                              ; fully-qualified     # ⏭️ E0.7 next track button
+23ED                                                   ; unqualified         # ⏭ E0.7 next track button
+23EF FE0F                                              ; fully-qualified     # ⏯️ E1.0 play or pause button
+23EF                                                   ; unqualified         # ⏯ E1.0 play or pause button
+25C0 FE0F                                              ; fully-qualified     # ◀️ E0.6 reverse button
+25C0                                                   ; unqualified         # ◀ E0.6 reverse button
+23EA                                                   ; fully-qualified     # ⏪ E0.6 fast reverse button
+23EE FE0F                                              ; fully-qualified     # ⏮️ E0.7 last track button
+23EE                                                   ; unqualified         # ⏮ E0.7 last track button
+23EB                                                   ; fully-qualified     # ⏫ E0.6 fast up button
+23EC                                                   ; fully-qualified     # ⏬ E0.6 fast down button
+23F8 FE0F                                              ; fully-qualified     # ⏸️ E0.7 pause button
+23F8                                                   ; unqualified         # ⏸ E0.7 pause button
+23F9 FE0F                                              ; fully-qualified     # ⏹️ E0.7 stop button
+23F9                                                   ; unqualified         # ⏹ E0.7 stop button
+23FA FE0F                                              ; fully-qualified     # ⏺️ E0.7 record button
+23FA                                                   ; unqualified         # ⏺ E0.7 record button
+23CF FE0F                                              ; fully-qualified     # ⏏️ E1.0 eject button
+23CF                                                   ; unqualified         # ⏏ E1.0 eject button
+203C FE0F                                              ; fully-qualified     # ‼️ E0.6 double exclamation mark
+203C                                                   ; unqualified         # ‼ E0.6 double exclamation mark
+2049 FE0F                                              ; fully-qualified     # ⁉️ E0.6 exclamation question mark
+2049                                                   ; unqualified         # ⁉ E0.6 exclamation question mark
+3030 FE0F                                              ; fully-qualified     # 〰️ E0.6 wavy dash
+3030                                                   ; unqualified         # 〰 E0.6 wavy dash
+303D FE0F                                              ; fully-qualified     # 〽️ E0.6 part alternation mark
+303D                                                   ; unqualified         # 〽 E0.6 part alternation mark
+00A9 FE0F                                              ; fully-qualified     # ©️ E0.6 copyright
+00A9                                                   ; unqualified         # © E0.6 copyright
+00AE FE0F                                              ; fully-qualified     # ®️ E0.6 registered
+00AE                                                   ; unqualified         # ® E0.6 registered
+2122 FE0F                                              ; fully-qualified     # ™️ E0.6 trade mark
+2122                                                   ; unqualified         # ™ E0.6 trade mark
+0023 FE0F 20E3                                         ; fully-qualified     # #️⃣ E0.6 keycap: #
+0023 20E3                                              ; unqualified         # #⃣ E0.6 keycap: #
+002A FE0F 20E3                                         ; fully-qualified     # *️⃣ E2.0 keycap: *
+002A 20E3                                              ; unqualified         # *⃣ E2.0 keycap: *
+0030 FE0F 20E3                                         ; fully-qualified     # 0️⃣ E0.6 keycap: 0
+0030 20E3                                              ; unqualified         # 0⃣ E0.6 keycap: 0
+0031 FE0F 20E3                                         ; fully-qualified     # 1️⃣ E0.6 keycap: 1
+0031 20E3                                              ; unqualified         # 1⃣ E0.6 keycap: 1
+0032 FE0F 20E3                                         ; fully-qualified     # 2️⃣ E0.6 keycap: 2
+0032 20E3                                              ; unqualified         # 2⃣ E0.6 keycap: 2
+0033 FE0F 20E3                                         ; fully-qualified     # 3️⃣ E0.6 keycap: 3
+0033 20E3                                              ; unqualified         # 3⃣ E0.6 keycap: 3
+0034 FE0F 20E3                                         ; fully-qualified     # 4️⃣ E0.6 keycap: 4
+0034 20E3                                              ; unqualified         # 4⃣ E0.6 keycap: 4
+0035 FE0F 20E3                                         ; fully-qualified     # 5️⃣ E0.6 keycap: 5
+0035 20E3                                              ; unqualified         # 5⃣ E0.6 keycap: 5
+0036 FE0F 20E3                                         ; fully-qualified     # 6️⃣ E0.6 keycap: 6
+0036 20E3                                              ; unqualified         # 6⃣ E0.6 keycap: 6
+0037 FE0F 20E3                                         ; fully-qualified     # 7️⃣ E0.6 keycap: 7
+0037 20E3                                              ; unqualified         # 7⃣ E0.6 keycap: 7
+0038 FE0F 20E3                                         ; fully-qualified     # 8️⃣ E0.6 keycap: 8
+0038 20E3                                              ; unqualified         # 8⃣ E0.6 keycap: 8
+0039 FE0F 20E3                                         ; fully-qualified     # 9️⃣ E0.6 keycap: 9
+0039 20E3                                              ; unqualified         # 9⃣ E0.6 keycap: 9
+1F170 FE0F                                             ; fully-qualified     # 🅰️ E0.6 A button (blood type)
+1F170                                                  ; unqualified         # 🅰 E0.6 A button (blood type)
+1F18E                                                  ; fully-qualified     # 🆎 E0.6 AB button (blood type)
+1F171 FE0F                                             ; fully-qualified     # 🅱️ E0.6 B button (blood type)
+1F171                                                  ; unqualified         # 🅱 E0.6 B button (blood type)
+1F191                                                  ; fully-qualified     # 🆑 E0.6 CL button
+1F192                                                  ; fully-qualified     # 🆒 E0.6 COOL button
+1F193                                                  ; fully-qualified     # 🆓 E0.6 FREE button
+2139 FE0F                                              ; fully-qualified     # ℹ️ E0.6 information
+2139                                                   ; unqualified         # ℹ E0.6 information
+1F194                                                  ; fully-qualified     # 🆔 E0.6 ID button
+24C2 FE0F                                              ; fully-qualified     # Ⓜ️ E0.6 circled M
+24C2                                                   ; unqualified         # Ⓜ E0.6 circled M
+1F195                                                  ; fully-qualified     # 🆕 E0.6 NEW button
+1F196                                                  ; fully-qualified     # 🆖 E0.6 NG button
+1F17E FE0F                                             ; fully-qualified     # 🅾️ E0.6 O button (blood type)
+1F17E                                                  ; unqualified         # 🅾 E0.6 O button (blood type)
+1F197                                                  ; fully-qualified     # 🆗 E0.6 OK button
+1F17F FE0F                                             ; fully-qualified     # 🅿️ E0.6 P button
+1F17F                                                  ; unqualified         # 🅿 E0.6 P button
+1F198                                                  ; fully-qualified     # 🆘 E0.6 SOS button
+1F199                                                  ; fully-qualified     # 🆙 E0.6 UP! button
+1F19A                                                  ; fully-qualified     # 🆚 E0.6 VS button
+1F201                                                  ; fully-qualified     # 🈁 E0.6 Japanese “here” button
+1F202 FE0F                                             ; fully-qualified     # 🈂️ E0.6 Japanese “service charge” button
+1F202                                                  ; unqualified         # 🈂 E0.6 Japanese “service charge” button
+1F237 FE0F                                             ; fully-qualified     # 🈷️ E0.6 Japanese “monthly amount” button
+1F237                                                  ; unqualified         # 🈷 E0.6 Japanese “monthly amount” button
+1F236                                                  ; fully-qualified     # 🈶 E0.6 Japanese “not free of charge” button
+1F22F                                                  ; fully-qualified     # 🈯 E0.6 Japanese “reserved” button
+1F250                                                  ; fully-qualified     # 🉐 E0.6 Japanese “bargain” button
+1F239                                                  ; fully-qualified     # 🈹 E0.6 Japanese “discount” button
+1F21A                                                  ; fully-qualified     # 🈚 E0.6 Japanese “free of charge” button
+1F232                                                  ; fully-qualified     # 🈲 E0.6 Japanese “prohibited” button
+1F251                                                  ; fully-qualified     # 🉑 E0.6 Japanese “acceptable” button
+1F238                                                  ; fully-qualified     # 🈸 E0.6 Japanese “application” button
+1F234                                                  ; fully-qualified     # 🈴 E0.6 Japanese “passing grade” button
+1F233                                                  ; fully-qualified     # 🈳 E0.6 Japanese “vacancy” button
+3297 FE0F                                              ; fully-qualified     # ㊗️ E0.6 Japanese “congratulations” button
+3297                                                   ; unqualified         # ㊗ E0.6 Japanese “congratulations” button
+3299 FE0F                                              ; fully-qualified     # ㊙️ E0.6 Japanese “secret” button
+3299                                                   ; unqualified         # ㊙ E0.6 Japanese “secret” button
+1F23A                                                  ; fully-qualified     # 🈺 E0.6 Japanese “open for business” button
+1F235                                                  ; fully-qualified     # 🈵 E0.6 Japanese “no vacancy” button
+2B1B                                                   ; fully-qualified     # ⬛ E0.6 black large square
+2B1C                                                   ; fully-qualified     # ⬜ E0.6 white large square
+25FC FE0F                                              ; fully-qualified     # ◼️ E0.6 black medium square
+25FC                                                   ; unqualified         # ◼ E0.6 black medium square
+25FB FE0F                                              ; fully-qualified     # ◻️ E0.6 white medium square
+25FB                                                   ; unqualified         # ◻ E0.6 white medium square
+25FE                                                   ; fully-qualified     # ◾ E0.6 black medium-small square
+25FD                                                   ; fully-qualified     # ◽ E0.6 white medium-small square
+25AA FE0F                                              ; fully-qualified     # ▪️ E0.6 black small square
+25AA                                                   ; unqualified         # ▪ E0.6 black small square
+25AB FE0F                                              ; fully-qualified     # ▫️ E0.6 white small square
+25AB                                                   ; unqualified         # ▫ E0.6 white small square
