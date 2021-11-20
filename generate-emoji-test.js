@@ -40,7 +40,7 @@ function toUnicodeCode(n) {
 var emojiCodes = [];
 var BREAK_SIGNAL = -1;
 (function () {
-	var data = fs.readFileSync('./UnicodeData.txt').toString('utf8');
+	var data = fs.readFileSync('./unicode/UnicodeData.txt').toString('utf8');
 	var entries = data.split('\n');
 
 	var prevWasEmoji = false;

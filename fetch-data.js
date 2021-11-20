@@ -27,7 +27,7 @@ function fetchFile(PATH, DEST) {
 	req.end();
 }
 
-fetchFile(`/Public/13.0.0/ucd/UnicodeData.txt`, './UnicodeData.txt');
+fetchFile(`/Public/13.0.0/ucd/UnicodeData.txt`, './unicode/UnicodeData.txt');
 
 fetchFile(`/Public/emoji/13.1/emoji-test.txt`, './emoji-test.txt');
 
