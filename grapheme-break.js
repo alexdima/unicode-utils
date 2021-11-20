@@ -216,7 +216,7 @@ function verifyTree() {
 verifyTree();
 
 
-fs.writeFileSync('generated/grapheme-break.txt', `
+fs.writeFileSync('generated/grapheme-break.ts', `
 function getGraphemeBreakRawData(): number[] {
 	// generated using https://github.com/alexdima/unicode-utils/blob/main/grapheme-break.js
 	return JSON.parse('${JSON.stringify(result)}');

@@ -114,7 +114,7 @@ console.log('------');
 console.log(r);
 console.log('------');
 
-fs.writeFileSync('generated/rtl-test.txt', `
+fs.writeFileSync('generated/rtl-test.ts', `
 /**
  * Generated using https://github.com/alexdima/unicode-utils/blob/main/rtl-test.js
  */
