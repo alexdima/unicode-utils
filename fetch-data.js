@@ -27,12 +27,12 @@ function fetchFile(PATH, DEST) {
 	req.end();
 }
 
-fetchFile(`/Public/13.0.0/ucd/UnicodeData.txt`, './unicode/UnicodeData.txt');
+fetchFile(`/Public/14.0.0/ucd/UnicodeData.txt`, './unicode/UnicodeData.txt');
 
-fetchFile(`/Public/13.0.0/ucd/Blocks.txt`, './unicode/Blocks.txt');
+fetchFile(`/Public/14.0.0/ucd/Blocks.txt`, './unicode/Blocks.txt');
 
-fetchFile(`/Public/emoji/13.1/emoji-test.txt`, './unicode/emoji-test.txt');
+fetchFile(`/Public/emoji/14.0/emoji-test.txt`, './unicode/emoji-test.txt');
 
-fetchFile(`/Public/13.0.0/ucd/auxiliary/GraphemeBreakProperty.txt`, './unicode/GraphemeBreakProperty.txt');
+fetchFile(`/Public/14.0.0/ucd/auxiliary/GraphemeBreakProperty.txt`, './unicode/GraphemeBreakProperty.txt');
 
-fetchFile(`/Public/13.0.0/ucd/emoji/emoji-data.txt`, './unicode/emoji-data.txt');
+fetchFile(`/Public/14.0.0/ucd/emoji/emoji-data.txt`, './unicode/emoji-data.txt');
