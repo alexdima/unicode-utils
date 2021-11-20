@@ -218,7 +218,7 @@ verifyTree();
 
 fs.writeFileSync('generated/grapheme-break.txt', `
 function getGraphemeBreakRawData(): number[] {
-	// generated using https://github.com/alexdima/unicode-utils/blob/master/generate-grapheme-break.js
+	// generated using https://github.com/alexdima/unicode-utils/blob/main/grapheme-break.js
 	return JSON.parse('${JSON.stringify(result)}');
 }
 `);
