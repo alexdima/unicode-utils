@@ -192,6 +192,18 @@ var isEmojiVeryImprecise = fuzzy.map(function(entry) {
 
 console.log('very imprecise test :: (x >= 0x1F1E6 && x <= 0x1F1FF) || ' + isEmojiVeryImprecise);
 
+fs.writeFileSync('generated/emoji-test-imprecise.ts', `
+/**
+ * A fast function (therefore imprecise) to check if code points are emojis.
+ * Generated using https://github.com/alexdima/unicode-utils/blob/main/emoji-test.js
+ */
+export function isEmojiImprecise(x: number): boolean {
+	return (
+		(x >= 0x1F1E6 && x <= 0x1F1FF) || ${isEmojiVeryImprecise}
+	);
+}
+`);
+
 // Flags use two code points, but they usually start with 1F1E6 - 1F1FF
 // REGIONAL INDICATOR SYMBOL LETTER A -> REGIONAL INDICATOR SYMBOL LETTER Z
 isEmojiFuzzy += '\\u{1F1E6}-\\u{1F1FF}';
@@ -212,7 +224,7 @@ console.log('------');
 console.log(r);
 console.log('------');
 
-fs.writeFileSync('generated/emoji-test.txt', `
+fs.writeFileSync('generated/emoji-test.ts', `
 /**
  * Generated using https://github.com/alexdima/unicode-utils/blob/main/emoji-test.js
  */
