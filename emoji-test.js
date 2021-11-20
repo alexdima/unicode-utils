@@ -100,7 +100,7 @@ var BREAK_SIGNAL = -1;
 			emojiCodes.push(BREAK_SIGNAL);
 		}
 	}
-	fs.writeFileSync('emoji-codes.txt', emojiCodes.filter(code => code !== BREAK_SIGNAL).map(toUnicodeCode).join('\n'));
+	fs.writeFileSync('generated/emoji-codes.txt', emojiCodes.filter(code => code !== BREAK_SIGNAL).map(toUnicodeCode).join('\n'));
 })();
 
 var emojiCodeRanges = [];
@@ -127,7 +127,7 @@ var emojiCodeRanges = [];
 	});
 })();
 
-fs.writeFileSync('emoji-code-ranges.txt', emojiCodeRanges.map(function (entry) {
+fs.writeFileSync('generated/emoji-code-ranges.txt', emojiCodeRanges.map(function (entry) {
 	var from = toUnicodeCode(entry.from);
 	var to = toUnicodeCode(entry.to);
 	if (from === to) {
@@ -162,7 +162,7 @@ for (var i = 1; i < emojiCodes.length; i++) {
 	breakSignal = false;
 }
 
-fs.writeFileSync('emoji-code-ranges-fuzzy.txt', fuzzy.map(function (entry) {
+fs.writeFileSync('generated/emoji-code-ranges-fuzzy.txt', fuzzy.map(function (entry) {
 	var from = toUnicodeCode(entry.from);
 	var to = toUnicodeCode(entry.to);
 	if (from === to) {
@@ -255,30 +255,9 @@ var containsEmoji = /(?:[\u231A\u231B\u23F0\u23F3\u2600-\u27BF\u2B50\u2B55]|\uD8
 		}
 
 		MISSING.push(original);
-	//	MISSING.push('TEST STRING: <<' + str + '>>');
-
-		// console.log(str);
-
-		// String.fromCodePoint()
-
-		// console.log(entry);
-
-		// if (entry.indexOf(' ') > 0) {
-		// 	// ignore combined
-		// 	continue;
-		// }
-
-		// if (entry.length === 0) {
-		// 	// ignore empty lines
-		// 	continue;
-		// }
-
-		// emojiCodesMap[parseInt(entry, 16)] = true;
 	}
 
-	fs.writeFileSync('emoji-missed.txt', 'THE FOLLOWING ARE NOT CAPTURED BY THE REGEX: \n' + MISSING.join('\n'));
-
-	// console.log(MISSING);
+	fs.writeFileSync('generated/emoji-missed.txt', 'THE FOLLOWING ARE NOT CAPTURED BY THE REGEX: \n' + MISSING.join('\n'));
 })();
 
 
