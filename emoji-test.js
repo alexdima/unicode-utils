@@ -219,8 +219,7 @@ fs.writeFileSync('generated/emoji-test.txt', `
 const CONTAINS_EMOJI = /${r}/;
 `);
 
-// GOTTEN FROM ABOVE RESULT
-var containsEmoji = /(?:[\u231A\u231B\u23F0\u23F3\u2600-\u27BF\u2B50\u2B55]|\uD83C[\uDDE6-\uDDFF\uDF00-\uDFFF]|\uD83D[\uDC00-\uDE4F\uDE80-\uDEFC\uDFE0-\uDFEB]|\uD83E[\uDD00-\uDDFF\uDE70-\uDED6])/;
+var containsEmoji = new RegExp(r);
 
 // SANITY CHECK the regex
 (function () {
