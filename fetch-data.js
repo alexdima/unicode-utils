@@ -29,7 +29,9 @@ function fetchFile(PATH, DEST) {
 
 fetchFile(`/Public/13.0.0/ucd/UnicodeData.txt`, './unicode/UnicodeData.txt');
 
-fetchFile(`/Public/emoji/13.1/emoji-test.txt`, './emoji-test.txt');
+fetchFile(`/Public/13.0.0/ucd/Blocks.txt`, './unicode/Blocks.txt');
+
+fetchFile(`/Public/emoji/13.1/emoji-test.txt`, './unicode/emoji-test.txt');
 
 fetchFile(`/Public/13.0.0/ucd/auxiliary/GraphemeBreakProperty.txt`, './unicode/GraphemeBreakProperty.txt');
 
