@@ -49,8 +49,8 @@ const typeToInt = {
 }
 
 const tuples = [];
-parseFile('./GraphemeBreakProperty.txt').forEach(item => tuples.push({ from:item.from, to:item.to, type: typeToInt[item.type] }));
-parseFile('./emoji-data.txt').filter(item => item.type === 'Extended_Pictographic').forEach(item => tuples.push({ from:item.from, to:item.to, type: typeToInt[item.type] }));
+parseFile('./unicode/GraphemeBreakProperty.txt').forEach(item => tuples.push({ from:item.from, to:item.to, type: typeToInt[item.type] }));
+parseFile('./unicode/emoji-data.txt').filter(item => item.type === 'Extended_Pictographic').forEach(item => tuples.push({ from:item.from, to:item.to, type: typeToInt[item.type] }));
 tuples.sort((t1, t2) => t1.from - t2.from);
 
 function pow2smallereq(n) {
@@ -139,4 +139,86 @@ validateNode(1);
 let result = [0,0,0];
 tuplesTree.forEach(t => result.push(t.from, t.to, t.type));
 
-console.log(JSON.stringify(result));
+function verifyTree() {
+	const data = JSON.parse(JSON.stringify(result));
+	const GraphemeBreakType = {
+		Other: 0,
+		Prepend: 1,
+		CR: 2,
+		LF: 3,
+		Control: 4,
+		Extend: 5,
+		Regional_Indicator: 6,
+		SpacingMark: 7,
+		L: 8,
+		V: 9,
+		T: 10,
+		LV: 11,
+		LVT: 12,
+		ZWJ: 13,
+		Extended_Pictographic: 14
+	}
+
+	function getGraphemeBreakType(codePoint) {
+		// !!! Let's make 7bit ASCII a bit faster: 0..31
+		if (codePoint < 32) {
+			if (codePoint === 10/*CharCode.LineFeed*/) {
+				return GraphemeBreakType.LF;
+			}
+			if (codePoint === 13/*CharCode.CarriageReturn*/) {
+				return GraphemeBreakType.CR;
+			}
+			return GraphemeBreakType.Control;
+		}
+		// !!! Let's make 7bit ASCII a bit faster: 32..126
+		if (codePoint < 127) {
+			return GraphemeBreakType.Other;
+		}
+
+		const nodeCount = data.length / 3;
+		let nodeIndex = 1;
+		while (nodeIndex <= nodeCount) {
+			if (codePoint < data[3 * nodeIndex]) {
+				// go left
+				nodeIndex = 2 * nodeIndex;
+			} else if (codePoint > data[3 * nodeIndex + 1]) {
+				// go right
+				nodeIndex = 2 * nodeIndex + 1;
+			} else {
+				// hit
+				return data[3 * nodeIndex + 2];
+			}
+		}
+
+		return GraphemeBreakType.Other;
+	}
+
+	parseFile('./unicode/GraphemeBreakProperty.txt').forEach(item => {
+		const expected = typeToInt[item.type];
+		for (let codePoint = item.from; codePoint <= item.to; codePoint++) {
+			const actual = getGraphemeBreakType(codePoint);
+			if (expected !== actual) {
+				throw new Error(`mismatch at ${codePoint}!`);
+			}
+		}
+	});
+	parseFile('./unicode/emoji-data.txt').filter(item => item.type === 'Extended_Pictographic').forEach(item => {
+		const expected = typeToInt[item.type];
+		for (let codePoint = item.from; codePoint <= item.to; codePoint++) {
+			const actual = getGraphemeBreakType(codePoint);
+			if (expected !== actual) {
+				throw new Error(`mismatch at ${codePoint}!`);
+			}
+		}
+	});
+}
+
+verifyTree();
+
+
+fs.writeFileSync('generated/grapheme-break.txt', `
+function getGraphemeBreakRawData(): number[] {
+	// generated using https://github.com/alexdima/unicode-utils/blob/master/generate-grapheme-break.js
+	return JSON.parse('${JSON.stringify(result)}');
+}
+`);

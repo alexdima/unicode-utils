@@ -31,6 +31,6 @@ fetchFile(`/Public/13.0.0/ucd/UnicodeData.txt`, './UnicodeData.txt');
 
 fetchFile(`/Public/emoji/13.1/emoji-test.txt`, './emoji-test.txt');
 
-fetchFile(`/Public/13.0.0/ucd/auxiliary/GraphemeBreakProperty.txt`, './GraphemeBreakProperty.txt');
+fetchFile(`/Public/13.0.0/ucd/auxiliary/GraphemeBreakProperty.txt`, './unicode/GraphemeBreakProperty.txt');
 
-fetchFile(`/Public/13.0.0/ucd/emoji/emoji-data.txt`, './emoji-data.txt');
+fetchFile(`/Public/13.0.0/ucd/emoji/emoji-data.txt`, './unicode/emoji-data.txt');
